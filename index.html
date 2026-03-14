@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Penguin Fashion</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo-wrap">
+        <img src="Image/logo.png" alt="logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Open menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"/>
+        </svg>
+      </button>
+    </nav>
+    <div class="container">
+      <div class="hero-flex">
+        <div class="hero-content">
+          <h1>
+            <span>Be the Penguins</span> <br/> of Winter
+          </h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <button class="btn-buy-hero">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+            BUY NOW
+          </button>
+        </div>
+        <div class="hero-image">
+          <img src="Image/model.png" alt="Hero Image" />
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- WOMAN JACKET SECTION -->
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-heading">Woman Jacket</h2>
+
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="Image/WJ1.png" alt="Yellow Coat Jacket" />
+          </div>
+          <h3>Yellow Coat Jacket</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="product-card-footer">
+            <span class="product-price">$230</span>
+            <button class="btn-buy-card">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="Image/WJ2.png" alt="Ladies Jacket" />
+          </div>
+          <h3>Ladies Jacket</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="product-card-footer">
+            <span class="product-price">$240</span>
+            <button class="btn-buy-card">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="Image/WJ3.png" alt="Woman Leather Jacket" />
+          </div>
+          <h3>Woman Leather Jacket</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="product-card-footer">
+            <span class="product-price">$250</span>
+            <button class="btn-buy-card">BUY NOW</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MAN JACKET SECTION -->
+  <section class="products-section" style="padding-top: 0;">
+    <div class="container">
+      <h2 class="section-heading">Man Jacket</h2>
+
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="Image/MJ1.png" alt="Snowboard Jacket Mens" />
+          </div>
+          <h3>Snowboard Jacket Mens</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="product-card-footer">
+            <span class="product-price">$230</span>
+            <button class="btn-buy-card">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="Image/MJ2.png" alt="Man Leather Jackets" />
+          </div>
+          <h3>Man Leather Jackets</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="product-card-footer">
+            <span class="product-price">$240</span>
+            <button class="btn-buy-card">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="Image/MJ3.png" alt="Man Casual Jackets" />
+          </div>
+          <h3>Man Casual Jackets</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="product-card-footer">
+            <span class="product-price">$250</span>
+            <button class="btn-buy-card">BUY NOW</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURES SECTION -->
+  <section>
+    <div class="container features-section">
+
+      <!-- Left: Feature Items -->
+      <div class="features-list">
+
+        <div class="feature-item">
+          <img src="Image/house.png" alt="Find the Perfect Fit icon" />
+          <div>
+            <h4>Find the Perfect Fit</h4>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img src="Image/box.png" alt="Free Exchanges icon" />
+          <div>
+            <h4>Free Exchanges</h4>
+            <p>One of the many reasons you can shop with peace of mind.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img src="Image/question.png" alt="Contact Our Seller icon" />
+          <div>
+            <h4>Contact Our Seller</h4>
+            <p>They are here to help you. You can chat with us any time.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right: Illustration -->
+      <div class="features-image">
+        <img src="Image/shopping.png" alt="Shopping Illustration" />
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+</html>
